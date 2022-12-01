@@ -1,0 +1,37 @@
+body{
+    color: rgb(0, 0, 0);
+    font-family: cursive;
+    text-align: center;
+    border: 10px solid rgb(255, 255, 255);
+    width: max-content;
+    margin: 10px 34pc;
+    border-radius: 15%;
+    box-shadow: 2px 2px 7px 0px inset rgb(0, 0, 0),
+                -4px -4px 5px inset black;
+    padding: 100px;
+}
+
+header{
+    font-size: 50px;   
+}
+
+main{
+    font-size: 100px;
+}
+#hours{
+    word-spacing: 10px;
+}
+#seconds{
+    position: relative;
+    bottom: 138px;
+    left: 10px;
+    word-wrap: break-word;
+}
+
+
+@media screen and (max-width: 500px) {
+    #hours{
+       font-size: 70px;
+    }
+   
+}
